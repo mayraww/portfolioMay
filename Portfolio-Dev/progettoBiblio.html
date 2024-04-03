@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colonne immagini e spiegazioni</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+        color: rgb(30, 30, 30);
+        text-decoration: none;
+        text-align: center;
+        padding: 2px;
+        background-color: rgb(31, 30, 30) ;
+    }
+  h1 {
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .column {
+    flex:48%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  footer {
+    padding: 3px;
+    text-align: center;
+    background-color: rgba(88, 92, 94, 0.255);
+  }
+</style>
+</head>
+
+
+<body>
+    <nav style="text-decoration: none;">
+        <a href="portfolio.html">HOME</a>
+        <a href="chiSono.html">CHI SONO</a>
+        <a href="#">SKILLS</a>
+        <a href="#">PASSIONI</a>
+    </nav>
+    <h1>Progetto Biblioteca</h1>
+<div class="container">
+
+  <div class="column">
+    <img src="indexBib.png" alt="Immagine 1">
+  </div>
+  <div class="column">
+    <p><br><br><br><br>
+        In questo progetto abbiamo creato un sito simulando quello di una biblioteca.
+        con due schermate:<br><br>
+        - Biblioteca (lato Utente) <br>
+        - Biblioteca (lato Gestore) <br>
+
+        
+    </p>
+  </div>
+  <div class="column">
+    <img src="scrBiblioMysql.png" alt="Immagine 2">
+  </div>
+  <div class="column">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum qui labore minima hic praesentium sed, laudantium illo perspiciatis est voluptate rem accusamus magni cum numquam nisi nam. Impedit, id ducimus!</p>
+  </div>
+  <!-- Aggiungi altre coppie di immagini e spiegazioni se necessario -->
+</div>
+<footer>
+    <p>&copy; 2024 Portfolio di Mayra Alejandra</p>
+  </footer>
+</body>
+</html>
